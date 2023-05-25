@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 10px;
+    
+  }
+  
+  form label {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  input[type="text"].text-here,
+input[type="email"].text-here,
+input[type="number"].text-here,
+select.text-here,
+textarea.text-here {
+  width: 300px;
+  height: 50px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #7e6e6e;
+}
+
+input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+
+}
