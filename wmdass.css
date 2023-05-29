@@ -107,14 +107,14 @@ nav ul li a.active {
     .feature-listt{
         box-shadow: 0px 0px 10px #08060680;
         cursor: pointer;
-        margin-top: 
+       
 
       }
       .genre{
         position: absolute; right: 100px;
         background-color:rgb(144, 140, 140);
          cursor: pointer;
-         margin-top: px;
+        
         
     }
     .genre:hover{
